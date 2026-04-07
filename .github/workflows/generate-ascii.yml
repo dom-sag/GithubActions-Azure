@@ -45,6 +45,6 @@ jobs:
       - name: Read File
         run: cat dragon.txt
       - name: Deploy
-        run: Echo Deploying..in 1 2 3 done....
+        run: echo Deploying..in 1 2 3 done....
     
     
