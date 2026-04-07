@@ -10,12 +10,12 @@ jobs:
         - name: Echo Docker Details
           run: docker info
         - name: Docker Images
-          run: docker run Hello World
-    Deploy-on-Windows:
+          run: docker run hello-world
+    Deploy-on-windows:
         runs-on: windows-latest
         steps:
         - name: Echo docker details
           run: docker info
         - name: Docker images
-          run: docker run hellow world
+          run: docker run hello-world
     
